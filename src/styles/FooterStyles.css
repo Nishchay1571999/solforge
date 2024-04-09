@@ -1,0 +1,21 @@
+.footer-container {
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.network-details-container {
+    height: 100%;
+    background-color: #5D0093;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}

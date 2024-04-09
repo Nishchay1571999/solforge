@@ -1,0 +1,28 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background: #120026;
+}
+
+.navbar-button {
+    display: flex;
+    flex-direction: row;
+    flex: 0.1;
+    border-radius: 10px;
+    border-width: 0.5px;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.2px solid transparent;
+}
+
+.navbar-button:hover {
+    border: 0.2px solid white;
+    box-shadow: 0px 1px 21px 6px rgba(255, 242, 255, 0.75);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}

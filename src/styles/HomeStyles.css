@@ -1,8 +1,104 @@
 .home-container {
-    margin: 0;
-    padding-top: 10vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.title-text {
+  font-size: 6rem;
+  font-weight: bolder;
+}
+
+.subtitle-text {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.workspace {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workspace-list {
+  width: 50rem;
+  height: 15rem;
+  background-color: #FFF2FF;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.workspaces-actions {
+  margin-top: 10px;
+  width: 50rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.workspace-action-button {
+  width: 20rem;
+  height: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #000;
+  border-radius: 20px;
+}
+
+.workspace-action-button:hover {
+  background-color: #5D0093;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.button-title {
+  font-size: 1rem;
+}
+
+.button-subtitle {
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.workspace-names-container {
+  width: 100%;
+  height: 3rem;
+  border-width: 1px;
+  border-color: black;
+  border-style: dashed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.workspace-names {
+  color: #140026;
+}
+
+.workspace-names-container:hover {
+  border-radius: 5px;
+  background-color: #8B00C9;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+.workspace-names-container:hover p {
+  color: white;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
